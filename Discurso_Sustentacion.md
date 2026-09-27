@@ -1,6 +1,6 @@
 # Discurso de sustentación · 15 minutos
 
-Guion para las 20 diapositivas. Son 1969 palabras: a un ritmo de 135 palabras por minuto dura 14:35. Los tiempos son acumulados, para que ensayes con cronómetro.
+Guion para las 20 diapositivas. Son 1985 palabras: a un ritmo de 135 palabras por minuto dura 14:42. Los tiempos son acumulados, para que ensayes con cronómetro.
 
 El mismo texto está en las notas del orador de cada diapositiva (en PowerPoint: *Presentación con diapositivas → Vista del moderador*).
 
@@ -36,54 +36,54 @@ Con el activo delimitado, respondí las dos primeras preguntas. La función del 
 
 La pregunta 3 es el núcleo del trabajo. Formulé quince hipótesis, organizadas en cinco familias: diseño, fabricación, montaje, operación y mantenimiento, y contrasté cada una con evidencia. El criterio fue estricto: una hipótesis se descartaba solo si era incompatible con la evidencia, no por parecer menos probable. Trece quedaron descartadas y dos se confirmaron, ambas en la rama de diseño: la raíz sin fusión de la unión soldada de penetración parcial, como causa determinante, y la sección resistente insuficiente del tubo, como causa contribuyente.
 
-## 9. Evidencia de base: los AFA · 5:33–6:15
+## 9. Diagrama de Ishikawa resuelto · 5:33–6:22
 
-La evidencia de base provino de los análisis de falla. Los AFA de campo muestran la misma firma en todos los eventos: origen en el diámetro interior, en la raíz de la soldadura. El laboratorio externo confirmó que la grieta nace en una discontinuidad de esa raíz y que el material es conforme. El AFA 01-23040 analizó los datos de operación del CM403 y los encontró dentro de parámetros. Y todos coincidieron en recomendar modificar la soldadura. Es decir, cada AFA resolvió bien su evento, pero ninguno consolidó la recurrencia. Volveré sobre este punto.
+Este es el diagrama de Ishikawa resuelto: las quince hipótesis en sus cinco familias, cada una marcada como confirmada o descartada con evidencia. Esa evidencia provino de los análisis de falla. Los AFA de campo muestran la misma firma en todos los eventos: origen en el diámetro interior, en la raíz de la soldadura. El laboratorio externo confirmó que el material es conforme, y el AFA 01-23040 encontró la operación dentro de parámetros. Por eso solo la espina de diseño queda en rojo: penetración parcial con raíz sin fusión y espesor de pared insuficiente. Aun así, cada AFA resolvió su evento, pero ninguno consolidó la recurrencia. Volveré sobre este punto.
 
-## 10. Verificación de la causa física · 6:15–7:00
+## 10. Verificación de la causa física · 6:22–7:08
 
 Esta es la verificación de la causa física. A la izquierda, el eje F1 en campo: el sector oscuro y liso es la propagación estable de la grieta, el sector claro y granular es la rotura final, y el origen está en el diámetro interior. Al centro, la fractografía muestra marcas de trinquete, que indican nucleación múltiple, y una zona de fractura final de apenas el 20 %. A la derecha, la macrografía ubica la iniciación en una discontinuidad tipo grieta en la raíz de la unión. Una rotura final tan reducida indica que el eje operó mucho tiempo con la grieta avanzando.
 
-## 11. Descarte de la operación · 7:00–7:47
+## 11. Descarte de la operación · 7:08–7:54
 
 Luego había que descartar la operación, y se hizo con la data del propio equipo. En el CM403, la carga útil media fue de 366,7 toneladas, sin ningún ciclo por encima del 120 %; no hubo sobrevelocidad; el peso suspendido se mantuvo bajo las 800 toneladas; y el grado efectivo quedó por debajo del promedio de comparación. Pero el argumento decisivo no es la comparación de valores, sino la distribución de los eventos: una causa operacional se concentraría en las unidades o rutas con la desviación, y esta fractura aparece de forma transversal en toda la flota y en un rango amplio de horas.
 
-## 12. Descarte de la fabricación · 7:47–8:39
+## 12. Descarte de la fabricación · 7:54–8:46
 
 Quedaba la fabricación. El material se descartó con los ensayos del laboratorio: su composición es compatible con el acero ASTM A618 grado III, con 212 HBW de dureza, 619 MPa de fluencia y 717 MPa de resistencia a la tracción. Para distinguir entre un defecto de fabricación y un problema de diseño, la prueba la dio la propia operación: en los motores reparados se instaló un eje nuevo, con el mismo número de parte, y la fractura volvió a aparecer en el mismo lugar y con el mismo patrón. Si fuera un defecto de una pieza o de un lote, la pieza nueva lo habría eliminado. La única condición común era la geometría de la unión soldada.
 
-## 13. Verificación por resistencia de materiales · 8:39–9:27
+## 13. Verificación por resistencia de materiales · 8:46–9:34
 
 Hasta aquí, el diseño quedó identificado por eliminación; la verificación por resistencia de materiales lo confirma de forma independiente. El par transmitido en la posición es de 17,81 kN·m, que genera un esfuerzo cortante nominal de 35,7 MPa y un rango de esfuerzo de 53,6 MPa. Por su raíz sin fusión, la unión se clasifica como detalle FAT 36, y con esos valores el factor de seguridad a la vida planificada es de 0,31. Un factor menor que uno significa que la unión, tal como estaba diseñada, no podía alcanzar la vida planificada bajo el par nominal. La fractura no era una anomalía: era el comportamiento esperado del diseño.
 
-## 14. Del mecanismo físico a la causa latente · 9:27–10:20
+## 14. Del mecanismo físico a la causa latente · 9:34–10:27
 
 Pero explicar la fractura no bastaba. La pregunta de fondo era por qué la organización convivió tres años con un modo de falla de criticidad máxima. El análisis descendió en cuatro niveles. En el físico, la raíz sin fusión nuclea la grieta. En el humano, el componente se recibía con su diseño predeterminado, sin verificar su resistencia. Y en el latente, dos causas de sistema: cada análisis de falla se hacía por evento y ninguno consolidaba el conjunto de casos, y no existía un proceso que asignara responsable, plazo y cierre a sus recomendaciones. La causa raíz latente es la ausencia de un mecanismo que convierta el hallazgo de un análisis de falla en un cambio de diseño.
 
-## 15. Preguntas 6 y 7 · 10:20–11:08
+## 15. Preguntas 6 y 7 · 10:27–11:15
 
 Con las causas identificadas, las preguntas 6 y 7 definen qué hacer. La tarea a condición no es factible: la grieta nace en la raíz interna y no hay acceso de inspección. El reacondicionamiento cíclico tampoco, porque no restituye la resistencia de la soldadura. La sustitución cíclica a la vida B10 sí es factible, pero no conveniente: costaría 4,3 millones de dólares al año frente a 3,05 millones de consecuencias evitadas. Descartadas las tres, y tratándose de una consecuencia operacional con implicación de seguridad, la norma prescribe la acción a falta de: el rediseño. Quiero subrayarlo: el rediseño es el resultado del proceso RCM, no su punto de partida.
 
-## 16. La solución y su implementación · 11:08–12:02
+## 16. La solución y su implementación · 11:15–12:09
 
 La solución es el cambio de la unión soldada. El componente obsoleto tenía una soldadura de penetración parcial con raíz sin fusión y un factor de seguridad de 0,31. El mejorado tiene penetración completa sobre una sección mayor, con el mismo material, y su factor sube a 2,23. Es una mejora del fabricante, no un desarrollo propio: surgió de las recomendaciones de los AFA, y esta operación fue la primera en implementarla, en 2025. Se ejecutó como cambio controlado, en tres pasos: priorizando las posiciones con más horas acumuladas, reemplazando el motor completo por uno de intercambio con el nuevo número de parte, y registrando el número de parte instalado en cada posición, para que el obsoleto no vuelva a montarse.
 
-## 17. Verificación del componente · 12:02–12:53
+## 17. Verificación del componente · 12:09–13:00
 
 La verificación se hizo en dos niveles. En el del componente, con el número de parte mejorado la flota acumuló 96 000 horas de operación sin una sola fractura desde diciembre de 2024. Con la tasa anterior se habrían esperado 6,3 eventos, y la probabilidad de observar cero si nada hubiera cambiado es de 0,0018. Por eso se rechaza, con 95 % de confianza, que el modo de falla persista. El MTBF del modo pasa de 15 231 horas a más de 32 046, por encima del TBO, y el MTTR del sistema de propulsión baja de 6,2 a 3,3 horas. La verificación seguirá abierta hasta que las unidades superen el rango de vidas observado.
 
-## 18. Verificación de la flota y costo evitado · 12:53–13:36
+## 18. Verificación de la flota y costo evitado · 13:00–13:43
 
 En el nivel de la flota, 2025 es el primer año del período en que se cumplen ambos compromisos contractuales: 93,6 % de disponibilidad y 108,4 horas de MTBF. Aquí debo ser preciso con la atribución: en el mismo período se intervino el motor diésel por fisura de culatas, y esa acción explica parte de la mejora. El aporte del eje palier es de 0,36 puntos de disponibilidad, y el rediseño se acredita en el nivel del componente, donde el efecto sí es atribuible. En términos económicos, el modo eliminado costaba 3,05 millones de dólares al año.
 
-## 19. Conclusiones · 13:36–14:28
+## 19. Conclusiones · 13:43–14:35
 
 Para concluir. Primero, el modo de falla tenía un impacto medible: 4,33 eventos por año, 59,3 horas por evento y 0,36 puntos de disponibilidad. Segundo, su causa física es la raíz sin fusión, con un factor de seguridad de 0,31, y debajo de ella había causas de sistema. Tercero, el rediseño fue el desenlace de la lógica RCM, no una decisión previa, y eleva el factor de seguridad de 0,31 a 2,23 sin cambiar el material. Y cuarto, la recuperación está verificada: 96 000 horas sin fracturas. El aporte de la ingeniería de confiabilidad no fue explicar por qué se fracturaba el eje, sino eliminarlo como modo de falla con la lógica de decisión del RCM.
 
-## 20. Cierre · 14:28–14:35
+## 20. Cierre · 14:35–14:42
 
 Con esto concluyo mi presentación. Muchas gracias por su atención; quedo atento a sus preguntas y comentarios.
 
 ## Si vas justo de tiempo
 
-Las diapositivas 7 (preguntas 1 y 2), 9 (AFA) y 11 (operación) admiten una versión de una o dos frases sin perder el hilo: la función y la falla funcional, “los AFA coinciden en la firma y el material es conforme” y “la operación está dentro de parámetros y la falla es transversal a la flota”. Así se recupera cerca de un minuto.
+Las diapositivas 7 (preguntas 1 y 2), 9 (Ishikawa) y 11 (operación) admiten una versión de una o dos frases sin perder el hilo: la función y la falla funcional, “solo la espina de diseño queda confirmada” y “la operación está dentro de parámetros y la falla es transversal a la flota”. Así se recupera cerca de un minuto.
